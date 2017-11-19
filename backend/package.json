@@ -1,0 +1,24 @@
+{
+  "name": "szumilascms",
+  "version": "1.0.0",
+  "description": "Szumilas Universal CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gszumilas92/SzumilasUniversalCMS.git"
+  },
+  "author": "Grzegorz Szumilas",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gszumilas92/SzumilasUniversalCMS/issues"
+  },
+  "homepage": "https://github.com/gszumilas92/SzumilasUniversalCMS#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4"
+  }
+}
