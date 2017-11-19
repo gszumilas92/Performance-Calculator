@@ -9,7 +9,7 @@ const index = fs.readFileSync(__dirname + '/../dist/index.html', 'utf8')
 
 //Settings
 app.use('/', express.static(__dirname + '/../dist'));
-// mongoose.connect("mongodb://admin:testadmin@ds227045.mlab.com:27045/szumilas-cms")
+mongoose.connect("mongodb://test:test@ds113936.mlab.com:13936/performance-calculator")
 
 //Controllers
 const calculatorController = require('./controllers/calculatorController');
